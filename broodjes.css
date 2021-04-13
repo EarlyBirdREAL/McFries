@@ -1,0 +1,163 @@
+body {
+    width: 100%;
+    padding:0%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#title {
+    padding-bottom: 1%;
+    padding-left: 16px;
+}
+
+#nav {
+    width:100%;
+    background-color: #264653;
+    padding: 0;
+}
+
+#nav ul {
+    margin:0%;
+    padding:0%;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: ff-tisa-sans-web-pro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+#nav ul li {
+    float: left;
+    padding: 1%;
+    padding-bottom: 0px;
+    font-size: 16px;
+}
+
+#nav ul li a {
+    display:grid;
+    color:black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    background-color: #264653;
+    border-radius: 10px 10px 0px 0px;
+    transition: background-color 0.8s ease-in-out;
+}
+
+#nav ul li a:hover {
+    background-color: #2A9D8F;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#menu ul {
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    font-family: ff-tisa-sans-web-pro, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+#menu ul li {
+    float: left;
+    padding: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 25px;
+}
+
+#brood a{
+    display:grid;
+    color:black;
+    text-align: center;
+    padding: 100px;
+    text-decoration: none;
+    background-image: url("download.jfif");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100px; /* You must set a specified height */
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+     border-radius: 10px 10px 10px 10px;
+     filter: grayscale(30%);
+     transform:scale(1, 1); 
+     transition: transform 0.8s ease-in-out, filter 1s ease-in-out, box-shadow 0.8s ease-in-out;
+     box-shadow: 4px 4px 12px;
+}
+
+#brood a:hover {
+    filter: grayscale(0%);
+    transform:scale(1.1, 1.1);
+    box-shadow: 6px 6px 12px;
+}
+#smoothie a{
+    display:grid;
+    color:black;
+    text-align: center;
+    padding: 100px;
+    text-decoration: none;
+    background-image: url("paas-smoothie_v.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100px; /* You must set a specified height */
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+     border-radius: 10px 10px 10px 10px;
+     filter: grayscale(30%);
+     transform:scale(1, 1); 
+     transition: transform 0.8s ease-in-out, filter 1s ease-in-out, box-shadow 0.8s ease-in-out;
+     box-shadow: 4px 4px 12px;
+}
+
+#smoothie a:hover {
+    filter: grayscale(0%);
+    transform:scale(1.1, 1.1);
+    box-shadow: 6px 6px 12px;
+}
+
+#vruchtensap a{
+    display:grid;
+    color:black;
+    text-align: center;
+    padding: 100px;
+    text-decoration: none;
+    background-image: url("1200px-Oranges_and_orange_juice.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100px; /* You must set a specified height */
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+     border-radius: 10px 10px 10px 10px;
+     filter: grayscale(30%);
+     transform:scale(1, 1); 
+     transition: transform 0.8s ease-in-out, filter 1s ease-in-out, box-shadow 0.8s ease-in-out;
+     box-shadow: 4px 4px 12px;
+}
+
+#vruchtensap a:hover {
+    filter: grayscale(0%);
+    transform:scale(1.1, 1.1);
+    box-shadow: 6px 6px 12px;
+}
+
+#selection {
+    float: left;
+    width:50%;
+}
+#result {
+    float: left;
+    width:50%;
+}
+#eie {
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    left:10px;
+}
